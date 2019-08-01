@@ -1,20 +1,32 @@
 body{
 background-image: url("https://c.tribune.com.pk/2015/05/888124-Wall_of_Fire_by_JJenkinsPhotography-1431919198.jpg");
+margin-top: 20px;
 }
 
 .Logo{
-    margin-left: 25px;
+    margin-left: 50%;
     border-radius: 5px;
 }
 .Title{
-    margin-top: 90px;
-    font-size: 50px;
+    margin-top: 80px;
+    font-size: 65px;
     color: white;
+    /* font-family: 'Slabo 27px', serif; */
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-family: 'PT Serif', serif; */
+    /* font-family: 'Libre Caslon Text', serif; */
+    /* font-family: 'Radley', serif; */
+    font-family: 'Rock Salt', cursive;
 }
 
 #Social{
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 25%;
 }
 
 #About{
@@ -27,14 +39,14 @@ background-image: url("https://c.tribune.com.pk/2015/05/888124-Wall_of_Fire_by_J
 }
 
 #instagram{
-    width: 30px;
-    height: 30px;
-    margin-left: 75%;
+    width: 70px;
+    height: 70px;
+    margin-right: 10%;
 }
 #facebook{
-    width: 50px;
-    height: 50px;
-    margin-left: 73%;
+    width: 100px;
+    height: 100px;
+    margin-right: 70%;
 }
 footer{
     height: 30px;
