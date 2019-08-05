@@ -4,13 +4,17 @@ margin-top: 20px;
 }
 
 .Logo{
-    margin-left: 50%;
+    /* margin-left: 15%; */
     border-radius: 5px;
 }
+#video{
+    width: 200px;
+    height: 150px;
+}
 .Title{
-    margin-top: 80px;
-    font-size: 65px;
-    color: white;
+    margin-top: 60px;
+    font-size: 80px;
+    color: grey;
     /* font-family: 'Slabo 27px', serif; */
     /* font-family: 'Roboto Slab', serif; */
     /* font-family: 'PT Serif', serif; */
@@ -22,20 +26,20 @@ margin-top: 20px;
 #Social{
     color: white;
     margin-top: 10px;
-    background-color: white;
     width: 200px;
     height: 200px;
     border-radius: 5px;
-    margin-left: 25%;
+    /* margin-left: 25%; */
 }
 
+#navy{
+    background-color: white;
+}
 #About{
-    margin-left: 10px;
     margin-top: 20px;
 }
 
 #Services{
-
 }
 
 #instagram{
@@ -49,12 +53,14 @@ margin-top: 20px;
     margin-right: 70%;
 }
 footer{
+    flex-shrink: 0;
     height: 30px;
     background-color: white;
     text-align: center;
     margin-left: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+  
     width: 100%;
 }
 
