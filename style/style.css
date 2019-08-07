@@ -11,7 +11,7 @@ margin-top: 20px;
     width: 50px;
     height: 50px;
 }
-#video{
+.navy{
     width: 200px;
     height: 150px;
 }
@@ -25,6 +25,11 @@ margin-top: 20px;
     /* font-family: 'Libre Caslon Text', serif; */
     /* font-family: 'Radley', serif; */
     font-family: 'Rock Salt', cursive;
+}
+.showcase{
+    width: 80%;
+    height: 80%;
+    Margin-left: 5%;
 }
 
 #Social{
