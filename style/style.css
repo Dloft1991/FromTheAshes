@@ -14,6 +14,12 @@ margin-top: 20px;
 .navy{
     width: 200px;
     height: 150px;
+    margin-left: 1%;
+}
+#showcaseNav{
+    width: 110%; background-color: white;
+    margin-left: 1%;
+
 }
 .Title{
     margin-top: 60px;
@@ -29,7 +35,7 @@ margin-top: 20px;
 .showcase{
     width: 80%;
     height: 80%;
-    Margin-left: 5%;
+    margin-left: 10%;
 }
 
 #Social{
@@ -43,6 +49,8 @@ margin-top: 20px;
 
 #navy{
     background-color: white;
+    margin-left: 1%;
+    width: 100%;
 }
 #About{
     margin-top: 20px;
@@ -67,11 +75,10 @@ footer{
     height: 30px;
     background-color: white;
     text-align: center;
-    margin-left: 5px;
+    margin-left: 1%;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
-    border-radius: 5px;
 }
 
 .copyright{
