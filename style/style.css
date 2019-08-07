@@ -23,7 +23,8 @@ margin-top: 20px;
 }
 .Title{
     margin-top: 60px;
-    font-size: 80px;
+    font-size: 100px;
+    margin-left: -10%;
     color: grey;
     /* font-family: 'Slabo 27px', serif; */
     /* font-family: 'Roboto Slab', serif; */
@@ -84,3 +85,45 @@ footer{
 .copyright{
     text-align: center;
 }
+
+@media only screen and (max-width: 736px) {
+    .Logo{
+        margin-left: 20%;
+        border-radius: 5px;
+        width: 250px;
+        height: 250px;
+    }
+    .Title{
+        margin-top: 60px;
+        font-size: 80px;
+        margin-left: 0%;
+        color: grey;
+        /* font-family: 'Slabo 27px', serif; */
+        /* font-family: 'Roboto Slab', serif; */
+        /* font-family: 'PT Serif', serif; */
+        /* font-family: 'Libre Caslon Text', serif; */
+        /* font-family: 'Radley', serif; */
+        font-family: 'Rock Salt', cursive;
+    }
+  }
+
+  @media only screen and (max-width: 414px) {
+    .Logo{
+        margin-left: 30%;
+        border-radius: 5px;
+        width: 250px;
+        height: 250px;
+    }
+    .Title{
+        margin-top: 60px;
+        font-size: 80px;
+        margin-left: 0%;
+        color: grey;
+        /* font-family: 'Slabo 27px', serif; */
+        /* font-family: 'Roboto Slab', serif; */
+        /* font-family: 'PT Serif', serif; */
+        /* font-family: 'Libre Caslon Text', serif; */
+        /* font-family: 'Radley', serif; */
+        font-family: 'Rock Salt', cursive;
+    }
+  }
