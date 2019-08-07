@@ -7,6 +7,10 @@ margin-top: 20px;
     /* margin-left: 15%; */
     border-radius: 5px;
 }
+.icon{
+    width: 50px;
+    height: 50px;
+}
 #video{
     width: 200px;
     height: 150px;
@@ -37,31 +41,32 @@ margin-top: 20px;
 }
 #About{
     margin-top: 20px;
+    padding-left: 5px;
 }
 
 #Services{
 }
 
 #instagram{
-    width: 70px;
-    height: 70px;
-    margin-right: 10%;
+    width: 30px;
+    height: 30px;
+    /* margin-right: 10%; */
 }
 #facebook{
-    width: 100px;
-    height: 100px;
-    margin-right: 70%;
+    width: 50px;
+    height: 50px;
+    margin-left: -10px;
 }
 footer{
     flex-shrink: 0;
     height: 30px;
     background-color: white;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
-  
     width: 100%;
+    border-radius: 5px;
 }
 
 .copyright{
