@@ -17,7 +17,9 @@ margin-top: 20px;
     margin-left: 1%;
 }
 #showcaseNav{
-    width: 110%; background-color: white;
+    width: 110%; 
+    background-color: rgb(53, 53, 53);
+    color: white;
     margin-left: 1%;
     margin-top: 20px;;
 }
@@ -25,7 +27,9 @@ margin-top: 20px;
     margin-top: 60px;
     font-size: 100px;
     margin-left: -10%;
-    color: grey;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    /* color: grey; */
     /* font-family: 'Slabo 27px', serif; */
     /* font-family: 'Roboto Slab', serif; */
     /* font-family: 'PT Serif', serif; */
@@ -49,13 +53,16 @@ margin-top: 20px;
 }
 
 #navy{
-    background-color: white;
+    background-color: rgb(53, 53, 53);
+    color: white;
     margin-left: 1%;
     width: 100%;
 }
 #About{
+    background-color: rgb(53, 53, 53);
+    color: white;
     margin-top: 20px;
-    padding-left: 5px;
+    margin-left: 1%;
 }
 
 #Services{
@@ -72,14 +79,14 @@ margin-top: 20px;
     margin-left: -10px;
 }
 footer{
-    flex-shrink: 0;
-    height: 30px;
-    background-color: white;
-    text-align: center;
-    margin-left: 1%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    color: white;
+    text-align: center;
 }
 
 .copyright{
