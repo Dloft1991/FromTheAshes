@@ -1,11 +1,13 @@
 body{
-background-image: url("https://c.tribune.com.pk/2015/05/888124-Wall_of_Fire_by_JJenkinsPhotography-1431919198.jpg");
+/* background-image: url("https://c.tribune.com.pk/2015/05/888124-Wall_of_Fire_by_JJenkinsPhotography-1431919198.jpg"); */
+background-color: white;
 margin-top: 20px;
 }
 
 .Logo{
     /* margin-left: 15%; */
     border-radius: 5px;
+    margin-left: 5%;
 }
 .icon{
     width: 50px;
@@ -14,21 +16,18 @@ margin-top: 20px;
 .navy{
     width: 200px;
     height: 150px;
-    margin-left: 1%;
 }
 #showcaseNav{
-    width: 110%; 
-    background-color: rgb(53, 53, 53);
-    color: white;
-    margin-left: 1%;
+    background-color: whitesmoke;
+    color: rgb(53, 53, 53);
     margin-top: 20px;;
 }
 .Title{
     margin-top: 60px;
     font-size: 100px;
-    margin-left: -10%;
-    background-color: rgb(53, 53, 53);
-    color: white;
+    margin-left: -30%;
+    background-color :white;
+    color:rgb(53, 53, 53);
     /* color: grey; */
     /* font-family: 'Slabo 27px', serif; */
     /* font-family: 'Roboto Slab', serif; */
@@ -53,14 +52,12 @@ margin-top: 20px;
 }
 
 #navy{
-    background-color: rgb(53, 53, 53);
-    color: white;
-    margin-left: 1%;
-    width: 100%;
+    background-color: white;
+    color: rgb(53, 53, 53);
 }
 #About{
-    background-color: rgb(53, 53, 53);
-    color: white;
+    background-color: whitesmoke;
+    color: rgb(53, 53, 53);
     margin-top: 20px;
     margin-left: 1%;
 }
