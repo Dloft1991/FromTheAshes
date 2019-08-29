@@ -26,7 +26,7 @@ margin-top: 20px;
     margin-top: 60px;
     font-size: 130px;
     margin-left: -25%;
-    background-color :white;
+    /* background-color :white; */
     color:rgb(53, 53, 53);
     font-family: 'Lobster', cursive;
     /* font-family: 'Chivo', sans-serif; */
@@ -36,6 +36,7 @@ margin-top: 20px;
 
 }
 #MenuItem{
+    color:rgb(53, 53, 53);
     /* font-family: 'Playfair Display', serif; */
 /* font-family: 'Lora', serif; */
 font-family: 'Lobster', cursive;
@@ -111,13 +112,18 @@ footer{
         margin-top: 60px;
         font-size: 80px;
         margin-left: 0%;
-        color: grey;
-        /* font-family: 'Slabo 27px', serif; */
-        /* font-family: 'Roboto Slab', serif; */
-        /* font-family: 'PT Serif', serif; */
-        /* font-family: 'Libre Caslon Text', serif; */
-        /* font-family: 'Radley', serif; */
-        font-family: 'Rock Salt', cursive;
+        color:rgb(53, 53, 53);
+        font-family: 'Lobster', cursive;
+    /* font-family: 'Chivo', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Exo 2', sans-serif; */
+/* font-family: 'Vollkorn', serif; */
+    }
+    .image{
+        width: 300px;
+        height: 200px;
+        padding: 2%;
+       
     }
   }
 
@@ -131,13 +137,18 @@ footer{
     .Title{
         margin-top: 60px;
         font-size: 80px;
-        margin-left: 0%;
-        color: grey;
-        /* font-family: 'Slabo 27px', serif; */
-        /* font-family: 'Roboto Slab', serif; */
-        /* font-family: 'PT Serif', serif; */
-        /* font-family: 'Libre Caslon Text', serif; */
-        /* font-family: 'Radley', serif; */
-        font-family: 'Rock Salt', cursive;
+        margin-left: 7.4%;
+        color:rgb(53, 53, 53);
+        font-family: 'Lobster', cursive;
+    /* font-family: 'Chivo', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Exo 2', sans-serif; */
+/* font-family: 'Vollkorn', serif; */
+    }
+    .image{
+        width: 400px;
+        height: 250px;
+        padding: 2%;
+       
     }
   }
