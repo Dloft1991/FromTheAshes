@@ -73,8 +73,11 @@ font-family: 'Lobster', cursive;
     margin-top: 20px;
     margin-left: 1%;
 }
-
-#Services{
+h2{
+    margin-right: 5%;
+}
+#SubEvents{
+    margin-right: 5%;
 }
 
 #instagram{
@@ -137,7 +140,7 @@ footer{
     .Title{
         margin-top: 60px;
         font-size: 80px;
-        margin-left: 7.4%;
+        /* margin-left: 7.4%; */
         color:rgb(53, 53, 53);
         font-family: 'Lobster', cursive;
     /* font-family: 'Chivo', sans-serif; */
@@ -150,5 +153,12 @@ footer{
         height: 250px;
         padding: 2%;
        
+    }
+    #SubEvents{
+        margin-right: 0%;
+    }
+    h2{
+        margin-left: 10%;
+        margin-right: 0%;
     }
   }
