@@ -5,3 +5,23 @@
     text-align: center;
     padding: 10%;
 }
+.distribution{
+    margin-left: 20%;
+}
+#MoveIcon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10%;
+}
+.pallet{
+    background-color: whitesmoke;
+}
+h3{
+    margin-left: 10%;
+}
+#ProductImage{
+    width: 300px;
+}
+#ProductImage:hover{
+    transform: scale(1.5);
+}
