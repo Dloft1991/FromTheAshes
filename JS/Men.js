@@ -4,11 +4,11 @@ RedHeart = document.getElementById("RedHeart").hidden = true;
 //     alert("Added to Cart.");
 //   };
   function Heart() {
-    alert("You Loved this.");
+    // alert("You Loved this.");
     Like();
   };
   function UnHeart() {
-    alert("No longer Love.");
+    // alert("No longer Love.");
     UnLike();
   };
 //   function Share() {
