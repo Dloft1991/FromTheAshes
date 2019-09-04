@@ -1,20 +1,26 @@
-// icon functions
-// $("#Cart").on("click", function() {
-//     alert("Added to your Cart.");
-// });
-// $("#Heart").on("click", function() {
-//     alert("You Loved.");
-// });
-// $("#Share").on("click", function() {
-//     alert("You can now share this.");
-// });
 
-function Cart() {
-    alert("Added to Cart.");
-  };
+RedHeart = document.getElementById("RedHeart").hidden = true;
+// function Cart() {
+//     alert("Added to Cart.");
+//   };
   function Heart() {
     alert("You Loved this.");
+    Like();
   };
-  function Share() {
-    alert("You can now share this.");
+  function UnHeart() {
+    alert("No longer Love.");
+    UnLike();
   };
+//   function Share() {
+//     alert("You can now share this.");
+//   };
+
+  function Like() {
+      document.getElementById("Heart").hidden = true;
+      document.getElementById("RedHeart").hidden = false;
+  }
+  function UnLike() {
+    document.getElementById("Heart").hidden = false;
+    document.getElementById("RedHeart").hidden = true;
+}
+  

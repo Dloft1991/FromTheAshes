@@ -8,6 +8,9 @@
 .distribution{
     margin-left: 20%;
 }
+#Icons{
+    margin-left: 1%;
+}
 .MoveIcon{
     width: 20px;
     height: 20px;
@@ -17,7 +20,7 @@
     background-color: none;
 }
 h3{
-    margin-left: 10%;
+    margin-left: 15%;
 }
 #ProductImage{
     width: 300px;
