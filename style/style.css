@@ -55,7 +55,7 @@ font-family: 'Lobster', cursive;
    
 }
 .image2{
-    width: 550px;
+    width: 90%;
     padding: 2%;
    
 }
@@ -134,8 +134,8 @@ footer{
        
     }
     .image2{
-        width: 300px;
-        height: 350px;
+        width: 90%;
+        height: 90%;
         padding: 2%;
        
     }
@@ -162,7 +162,7 @@ footer{
        
     }
     .image2{
-        width: 400px;
+        width: 380px;
         height: 500px;
         padding: 2%;
        
