@@ -26,7 +26,7 @@ h3{
     width: 300px;
 }
 #ProductImage:hover{
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
 }
 
 
