@@ -1,3 +1,3 @@
-function Modal() {
-    document.getElementById("Modal").innerHTML = ("words");
-}
+// function Modal() {
+//     document.getElementById("Modal").innerHTML = ("words");
+// }
