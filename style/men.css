@@ -11,6 +11,12 @@
 #Icons{
     margin-left: 1%;
 }
+li {
+    background-color: orange;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .MoveIcon{
     width: 20px;
     height: 20px;

@@ -16,3 +16,9 @@
     color: white;
     text-align: center;
 }
+
+li {
+    background-color: orange;
+    margin-left: 5px;
+    margin-right: 5px;
+}
