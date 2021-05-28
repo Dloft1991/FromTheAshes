@@ -23,9 +23,59 @@
     <!--TITLE/ NAVBAR-->
 
     <!-- Image and text -->
-    <h1 class="Title" style="text-align: center;" >From The Ashes</h1>
+    <div class="row">
+      <div class="col-sm-2">
+        <img class="Logo" src="images/Logo2.0.jpg" width="100" height="150" style="margin-top: 40%;"alt="FTA">
+      </div>
+      <div class="col-sm-10"> <h1 class="Title" style="text-align: center;">From The Ashes</h1>
+      </div>
+    </div>
+   
+   
 
-        
+    <!-- ********** styling for the nav underline ******* -->
+        <style>
+
+ul {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: start; */
+  /* list-style-type: none; */
+}
+ul li {
+  padding: 6px 0;
+}
+ul li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-family: "Lato";
+  /* font-size: 2rem;; */
+  color: #ecf0f1;
+  text-transform: uppercase;
+  padding: 4px 0;
+  transition: 0.5s;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #ff7000;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+ul li a:hover {
+  color: #95a5a6;
+}
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+        </style>
                 
        
         
@@ -48,7 +98,7 @@
   </ul>
 <style>
     li {
-        background-color: orange;
+        /* background-color: orange; */
         margin-left: 5px;
         margin-right: 5px;
     }
@@ -77,16 +127,16 @@
           <p>Encouraging others to tell their story, 
               while providing the opportunity to uniquely change communities.</p>
               <p style="font-size: 30px; font-family: 'Lobster', cursive;">From The Owner</p>
-          <p>I’m Marchel Smith founder of FTA enterprises inc. which stands for From the Ashes.
+         
+         <p>" I’m Marchel Smith founder of FTA enterprises inc. which stands for From the Ashes.
              Our brand empowers young men and women to learn how to overcome any obstacles or circumstances and adapt and evolve into who they aspire to be. 
-             We encourage young individuals to tell their story, to inspire others, and to pursue their dreams. 
-             <!-- There are many ways to be involved in FTA, 
-             via purchasing apparel, volunteering, coaching, donations, and or simply sharing how FTA resonates with you. 
-            How do you see yourself contributing to fulfill our vision? -->
+             We encourage young individuals to tell their story, to inspire others, and to pursue their dreams. "
           </p>
-        </div>
-        <div class="col-sm-4, con-logo" style="margin-left: -10%; margin-right: 5%;">
-         <img class="Logo" src="images/Logo2.0.jpg" width="500" height="800" alt="FTA" style="margin-top: -15%;">
+      </div> 
+
+        <div class="col-sm-4, con-logo" style="margin-right: 5%; margin-bottom: 5%; ">
+         <!-- <img class="Logo" src="images/Logo2.0.jpg" width="500" height="800" alt="FTA" style="margin-top: 35%;"> -->
+         <img src="images/Kelshome.jpg" width="500" height="800" alt="THE OWNER" style="margin-top: 5%;">
         
         </div>
       </div>

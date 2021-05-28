@@ -1,88 +1,85 @@
-#container{
-    background-color: whitesmoke;
-    color: rgb(53, 53, 53);
-    margin-top: 20px;
-    text-align: center;
-    padding: 10%;
+#container {
+  background-color: whitesmoke;
+  color: rgb(53, 53, 53);
+  margin-top: 20px;
+  text-align: center;
+  padding: 10%;
 }
-.distribution{
-    margin-left: 20%;
+.distribution {
+  margin-left: 20%;
 }
-#Icons{
-    margin-left: 1%;
+#Icons {
+  margin-left: 1%;
 }
 li {
-    background-color: orange;
-    margin-left: 5px;
-    margin-right: 5px;
+  background-color: none;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.MoveIcon{
-    width: 20px;
-    height: 20px;
-    margin-left: 10%;
+.MoveIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10%;
 }
-.pallet{
-    background-color: none;
+.pallet {
+  background-color: none;
 }
-h3{
-    margin-left: 15%;
+h3 {
+  margin-left: 15%;
 }
-#ProductImage{
-    width: 300px;
+#ProductImage {
+  width: 300px;
 }
-#ProductImage:hover{
-    /* transform: scale(1.5); */
+#ProductImage:hover {
+  /* transform: scale(1.5); */
 }
-
 
 @media only screen and (max-width: 736px) {
-    .Logo{
-        margin-left: 20%;
-        border-radius: 5px;
-        width: 250px;
-        height: 250px;
-    }
-    .Title{
-        margin-top: 60px;
-        font-size: 80px;
-        margin-left: 0%;
-        color:rgb(53, 53, 53);
-        font-family: 'Lobster', cursive;
-    }
-    .image{
-        width: 300px;
-        height: 200px;
-        padding: 2%;
-       
-    }
+  .Logo {
+    margin-left: 20%;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+  }
+  .Title {
+    margin-top: 60px;
+    font-size: 80px;
+    margin-left: 0%;
+    color: rgb(53, 53, 53);
+    font-family: "Lobster", cursive;
+  }
+  .image {
+    width: 300px;
+    height: 200px;
+    padding: 2%;
+  }
 }
 
-  @media only screen and (max-width: 414px) {
-    .Logo{
-        margin-left: 32%;
-        border-radius: 5px;
-        width: 250px;
-        height: 250px;
-    }
-    .Title{
-        margin-top: 20px;
-        font-size: 60px;
-        /* margin-left: 10%; */
-        color:rgb(53, 53, 53);
-        font-family: 'Lobster', cursive;
-    }
-    .image{
-        width: 400px;
-        height: 250px;
-        padding: 2%;
-       
-    }
-    #SubEvents{
-        margin-right: 0%;
-    }
-    h2{
-        margin-left: 10%;
-        margin-right: 0%;
-    }
+@media only screen and (max-width: 414px) {
+  .Logo {
+    margin-left: 32%;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
   }
+  .Title {
+    margin-top: 20px;
+    font-size: 60px;
+    /* margin-left: 10%; */
+    color: rgb(53, 53, 53);
+    font-family: "Lobster", cursive;
+  }
+  .image {
+    width: 400px;
+    height: 250px;
+    padding: 2%;
+  }
+  #SubEvents {
+    margin-right: 0%;
+  }
+  h2 {
+    margin-left: 10%;
+    margin-right: 0%;
+  }
+}
